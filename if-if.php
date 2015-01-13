@@ -1,0 +1,19 @@
+<?php
+ $a=100;
+ $b=50;
+ $c=20;
+ $l=0;
+ if($a>$l)
+ {
+  $l=$a;
+ }
+ if($b>$l)
+ {
+  $l=$b;
+ }
+ if($c>$l)
+ {
+  $l=$c;
+ }
+ echo"largest no is".$l;
+?>
